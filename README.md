@@ -9,7 +9,7 @@ This module uses a converted version of [antonKalinin/audio-waveform-svg-path](h
 ```js
 const audioToSvgWaveform = require('audio-to-svg-waveform');
 
-audioToSvgWaveform('./infile.mp3', './output.svg.gz')
+audioToSvgWaveform('./infile.mp3', './output.svg')
   .then(() => console.log('complete!'))
   .catch(console.error)
 ```
